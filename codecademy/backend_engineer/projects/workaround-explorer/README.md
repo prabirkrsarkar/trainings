@@ -1,1 +1,1 @@
-This project is from Codeacademy.com Backend Enginner track.
+This project is from https://www.codecademy.com/ Backend Enginner track.
