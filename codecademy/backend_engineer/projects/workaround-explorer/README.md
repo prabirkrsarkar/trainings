@@ -11,7 +11,7 @@ WorkAround now wants to release a new web application called WorkAround Explorer
 
 ![After the user selects a role from the first column and a company from the second, the relevant data is shown in the third column](https://github.com/prabirkrsarkar/trainings/blob/main/codecademy/backend_engineer/projects/workaround-explorer/assets/images/WorkAround_Explorer_%20Demo.gif)
 
-Much of the user interface has already been designed by front-end developers, however, the core data and functionality are either missing or need to be connected together using modules. Your task is to help your team members out by using your import and export expertise!
+Much of the user interface has already been designed by front-end developers, however, the core data and functionality are either missing or need to be connected together using modules. Your task is to help your team members out by using your `import` and `export` expertise!
 
 Tasks
 Render the radio buttons using the salaryData module
