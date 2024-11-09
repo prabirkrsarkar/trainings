@@ -1,6 +1,6 @@
 // Add your imports here.
 //This file is only concerned with digging into the data to find precise values.
-import salDataImports from './modules/salaryData.js';
+import salDataImports from './salaryData.js';
 const {salaryData, getDataByRole, getDataByCompany} = salDataImports;
 // Replace the empty array with the appropriate imported function/value
 const getAverageSalaryByRole = role => {
