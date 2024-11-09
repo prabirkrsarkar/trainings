@@ -1,21 +1,20 @@
-This project is from https://www.codecademy.com/ Backend Engineer track.
+## This project is from https://www.codecademy.com/ Backend Engineer track.
 
-WorkAround is a research organization that provides data on salary trends in the tech industry. Open up salaryData.js to see the data they have collected. You’ll notice that they have also created a few functions for filtering that data to get subsets of data by role and by company.
+WorkAround is a research organization that provides data on salary trends in the tech industry. Open up **salaryData.js** to see the data they have collected. You’ll notice that they have also created a few functions for filtering that data to get subsets of data by role and by company.
 
 WorkAround now wants to release a new web application called WorkAround Explorer to make their data more easily viewable. This web app should allow users to choose specific roles and companies in the tech industry to see the following information:
 
-The salary for the chosen role at the chosen company.
-The industry average for the chosen role.
-The average salary at the chosen company across all roles.
-The industry average salary across all roles and all companies.
-After the user selects a role from the first column and a company from the second, the relevant data is shown in the third column
+* The salary for the chosen role at the chosen company.
+* The industry average for the chosen role.
+* The average salary at the chosen company across all roles.
+* The industry average salary across all roles and all companies.
+* After the user selects a role from the first column and a company from the second, the relevant data is shown in the third column
 
 Much of the user interface has already been designed by front-end developers, however, the core data and functionality are either missing or need to be connected together using modules. Your task is to help your team members out by using your import and export expertise!
 
 Tasks
-10/10 complete
-Mark the tasks as complete by checking them off
 Render the radio buttons using the salaryData module
+
 1.
 These first four tasks will focus on rendering the <input> elements using the names of the companies and the different roles available in the collected salary data.
 
@@ -49,6 +48,7 @@ In index.html, add a type attribute to <script src='main.js'> with the correct v
 After completing this task, all three columns should render again and you should see the radio-style <input> elements rendered in your application!
 
 Create the workAroundModule
+
 5.
 Great job! You now have radio-style <input> elements for the different companies and roles represented in the salary dataset. Try selecting a combination of company and role and you’ll see that the data isn’t being calculated. Instead, all four values are showing up as $0.
 
@@ -67,6 +67,7 @@ Each of the incomplete functions in workAroundModule.js contains an empty array 
 As a final step, to make these functions available to main.js, export the four functions using named export syntax.
 
 Calculate and render the data when the user input changes
+
 8.
 We are all set up now to use the functions defined in workAroundModule.js to calculate and render the data based on the user’s input selections.
 
@@ -82,11 +83,10 @@ const averageSalaryByCompany = 0;
 const salary = 0;
 const industryAverageSalary = 0;
 
-to Clipboard
-
 As you can see, they are all assigned to 0 rather than the appropriate calculated data. Replace each 0 with a call to the appropriate imported function from workAroundModule.js using either (or both) company and role as arguments.
 
 Extra Challenge
+
 10.
 Congrats! You’ve helped WorkAround build their WorkAround Explorer application using a modular approach. The end result is a well-organized program with clear boundaries for each of its separate concerns.
 
@@ -94,8 +94,6 @@ Often, programmers will create a set of generic “utility” functions that can
 
 const result = formatNumber(1234567.89);
 // result = "1,234,567.89"
-
-to Clipboard
 
 As an extra challenge:
 
