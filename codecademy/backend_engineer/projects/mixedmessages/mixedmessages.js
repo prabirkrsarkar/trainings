@@ -28,6 +28,7 @@ function getSunSign(birthMonth, birthDay) {
         for (let signObj of sunSignTable) {
             if (isDateInRange(birthMonth, birthDay, signObj.startMonth, signObj.startDay, signObj.endMonth, signObj.endDay)) {
                 console.log("Your Sign is : " + signObj.SignName);
+		break;
             }
         }
     }
